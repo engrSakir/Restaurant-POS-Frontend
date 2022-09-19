@@ -1,0 +1,131 @@
+.product-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+
+  .product-item {
+    padding: 10px;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    // text-align: center;
+    text-shadow: 0px 1px 0px #ffffff;
+    cursor: pointer;
+    color: #666666;
+    user-select: none;
+
+    &:hover {
+      background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+      background-color: #e9e9e9;
+    }
+
+    .product-item-inner {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
+    .product-thumb {
+      flex: 0 0 60px;
+      max-width: 60px;
+
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+      }
+    }
+
+    .product-info {
+      flex: 0 0 calc(100% - 60px);
+      max-width: calc(100% - 60px);
+      padding-left: 10px;
+    }
+
+    h3 {
+      font-size: 0.9rem;
+      margin: 0;
+      max-height: 35px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    p {
+      margin: 0;
+
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+
+      &>span {
+        // padding: 3px;
+        color: #b5340b;
+      }
+
+      img {
+        color: #666666;
+        height: 16px;
+        margin-right: 5px;
+      }
+
+      svg {
+        color: #f3912c;
+        margin: 4px 0;
+      }
+    }
+  }
+}
+.cart-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  .cart-item{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 40px repeat(2, 1fr);
+    gap: 5px;
+    padding: 5px 0;
+    img{
+      max-width: 100%;
+      height: auto;
+      border-radius: 100%;
+    }
+    .qty-counter{
+      display: flex;
+      &>div{
+    
+        &:first-child{
+          button{
+            border-radius:4px 0 0 4px;
+          }
+        }
+        &:last-child{
+          button{
+            border-radius: 0 4px 4px 0;
+          }
+        }
+        button{
+          width: 30px;
+          height: 30px;
+          border: none;
+          border: 1px solid #dcdcdc;
+          
+        }
+        input{
+          width: 50px;
+          border: 1px solid #dcdcdc;
+          text-align: center;
+          height: 30px;
+          -moz-appearance: textfield;
+          &::-webkit-outer-spin-button, 
+          &::-webkit-inner-spin-button{
+            -webkit-appearance: none;
+          }
+        }
+      }
+    }
+  }
+}
