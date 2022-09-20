@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 
 const CartItem = ({cart}) => {
-    console.log(cart);
+    // console.log(cart);
     return (
         <div className='cart-item'>
            <div>
@@ -19,7 +19,7 @@ const CartItem = ({cart}) => {
                         <button><FontAwesomeIcon icon={faMinus} /></button>
                     </div>
                     <div>
-                        <input type="number" />
+                        <input type="number" readOnly value={cart.qty} />
                     </div>
                     <div>
                         <button><FontAwesomeIcon icon={faPlus} /></button>

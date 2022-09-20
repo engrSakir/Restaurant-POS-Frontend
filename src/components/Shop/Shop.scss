@@ -1,8 +1,7 @@
 .product-wrapper {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, calc(100% / 6));
   gap: 5px;
-
   .product-item {
     padding: 10px;
     box-shadow: inset 0px 1px 0px 0px #ffffff;
