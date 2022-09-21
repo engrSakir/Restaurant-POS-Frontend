@@ -80,6 +80,8 @@ const Shop = () => {
     } 
   }
   }
+
+  
   return (
     <div>
       <Container fluid>
@@ -90,6 +92,7 @@ const Shop = () => {
             </div>
           </Col>
           <Col lg="3">
+
            <div className="cart-wrapper"> 
               {cart?.map((cartItem)=> <CartItem key={cartItem.unique_key} cart={cartItem} incDecHandle={incDecHandle}> {cartItem.name}</CartItem>)}
            </div>

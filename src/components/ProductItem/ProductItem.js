@@ -12,8 +12,9 @@ const ProductItem = ({product, handleCart}) => {
                     {product.image? <img src={product.image} alt=""/>: <img src="https://via.placeholder.com/60" alt="" />} 
                 </div>
                 <div className="product-info">
-                    <h3>{product.unique_key} - {product.name}</h3>  
-                    <p> {!product.multiple?  <><img src={taka} alt="" /> <span>{product.price}</span> </>:  <FontAwesomeIcon icon={faBoxOpen} />}</p>
+                    <h3>{product.unique_key} - {product.name} </h3>  
+                    <p> {!product.multiple?  <><img src={taka} alt="" /> <span>{product.price}</span> </>:  <FontAwesomeIcon icon={faBoxOpen} />} {product?.sub_category? '-' + product.sub_category : ""}</p>
+                    
                 </div>
             </div> 
         </div>
