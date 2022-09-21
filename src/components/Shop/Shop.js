@@ -32,20 +32,20 @@ const Shop = () => {
           const updatedItem = element;
           updatedItem.qty = updatedItem.qty + 1; 
           setCart([...restElement, updatedItem]);
-          console.log(restElement);
-          console.log("checked! and exist");
+          // console.log(restElement);
+          // console.log("checked! and exist");
           return
         } else{
           setCart([...cart, cartItem]);
-          console.log("checked! but not exist");
+          // console.log("checked! but not exist");
         }
       }
      
     } else{
       setCart([...cart, cartItem]);
-      console.log("not checked!");
+      // console.log("not checked!");
     }
-    console.log(cart);
+    // console.log(cart);
   }
 
  
@@ -56,6 +56,29 @@ const Shop = () => {
         setShow(true);
         setVariationProduct(product)
       }
+  }
+
+  const incDecHandle = (operationType, operationalProductID) => {
+    // console.log(operationType, operationalProductID, "++");
+    const restElement = cart.filter((elem)=> elem.unique_key !== operationalProductID);
+    // console.log(restElement);
+    for (let index = 0; index < cart.length; index++) {
+      const element = cart[index];
+    if (element.unique_key === operationalProductID) {
+      const updatedItem = element;
+      if(operationType === 'decrement' && updatedItem.qty > 1){
+        updatedItem.qty = updatedItem.qty - 1; 
+      } 
+      if(operationType === 'increment') {
+        updatedItem.qty = updatedItem.qty + 1; 
+      }
+      
+      setCart([...restElement, updatedItem]);
+      // console.log(restElement);
+      // console.log("Update");
+      return
+    } 
+  }
   }
   return (
     <div>
@@ -68,7 +91,7 @@ const Shop = () => {
           </Col>
           <Col lg="3">
            <div className="cart-wrapper"> 
-              {cart?.map((cartItem)=> <CartItem  key={cartItem.unique_key} cart={cartItem}> {cartItem.name}</CartItem>)}
+              {cart?.map((cartItem)=> <CartItem key={cartItem.unique_key} cart={cartItem} incDecHandle={incDecHandle}> {cartItem.name}</CartItem>)}
            </div>
           </Col>
         </Row>
