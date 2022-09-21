@@ -1,38 +1,40 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./Shop.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import useProducts from "../../hooks/useProducts";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBoxOpen } from '@fortawesome/free-solid-svg-icons';
-import taka from './../../assets/img/taka.svg';
+
 import CartItem from '../CartItem/CartItem';
+import VariationProductModal from "../VariationProductModal/VariationProductModal";
+import ProductItem from "../ProductItem/ProductItem";
 
 const Shop = () => {
   const [products] = useProducts();
-  // console.log(products);
   const [cart, setCart] = useState([]);
-  const [excistingItem, setExcistingItem] = useState(null);
+
+  const [show, setShow] = useState(false);
+  const [variationProduct, setVariationProduct] = useState({})
 
   const createShoppingCart = selectedItem => {
     const cartItem = {
-      'item_id': selectedItem.item_id,
+      'unique_key': selectedItem.unique_key,
       'name': selectedItem.name,
       'image': selectedItem.image,
       'price': selectedItem.price, 
       'qty': 1,
     } 
-    // console.log(cartItem);
+    // console.log(selectedItem);
    
     if(cart.length > 0){ 
-      const restElement = cart.filter((elem)=> elem.item_id !== selectedItem.item_id);
+      const restElement = cart.filter((elem)=> elem.unique_key !== selectedItem.unique_key);
       for (let index = 0; index < cart.length; index++) {
-        const element = cart[index];
-        if (element.item_id === selectedItem.item_id) {
+          const element = cart[index];
+        if (element.unique_key === selectedItem.unique_key) {
           const updatedItem = element;
           updatedItem.qty = updatedItem.qty + 1; 
           setCart([...restElement, updatedItem]);
+          console.log(restElement);
           console.log("checked! and exist");
-
+          return
         } else{
           setCart([...cart, cartItem]);
           console.log("checked! but not exist");
@@ -46,13 +48,13 @@ const Shop = () => {
     console.log(cart);
   }
 
+ 
   const handleCart = product => {    
-      
       if(!product.multiple){        
         createShoppingCart(product)
-      
       } else{
-        alert("Select variation!!!")
+        setShow(true);
+        setVariationProduct(product)
       }
   }
   return (
@@ -60,30 +62,18 @@ const Shop = () => {
       <Container fluid>
         <Row>
           <Col lg="9">
-            <div className="product-wrapper">
-              {products.map((product) => (
-                // 
-                <div className="product-item" key={product.item_id} onClick={() => handleCart(product)}>
-                  <div className="product-item-inner">
-                  <div className="product-thumb">
-                    {product.image? <img src={product.image} alt=""/>: <img src="https://via.placeholder.com/60" alt="" />} 
-                  </div>
-                  <div className="product-info">
-                    <h3>{product.item_id} - {product.name}</h3>  
-                   <p> {!product.multiple?  <><img src={taka} alt="" /> <span>{product.price}</span> </>:  <FontAwesomeIcon icon={faBoxOpen} />}</p>
-                  </div>
-                  </div> 
-                </div>
-              ))}
+            <div className="product-wrapper main-product-grid">
+              {products.map((product) => <ProductItem key={product.unique_key} product={product} handleCart={handleCart}></ProductItem>)}
             </div>
           </Col>
           <Col lg="3">
            <div className="cart-wrapper"> 
-              {cart?.map((cartItem)=> <CartItem  key={cartItem.item_id} cart={cartItem}> {cartItem.name}</CartItem>)}
+              {cart?.map((cartItem)=> <CartItem  key={cartItem.unique_key} cart={cartItem}> {cartItem.name}</CartItem>)}
            </div>
           </Col>
         </Row>
       </Container>
+      <VariationProductModal show={show} setShow={setShow} variationProduct={variationProduct} handleCart={handleCart}></VariationProductModal>
     </div>
   );
 };
