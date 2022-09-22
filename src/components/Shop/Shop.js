@@ -6,6 +6,7 @@ import useProducts from "../../hooks/useProducts";
 import CartItem from '../CartItem/CartItem';
 import VariationProductModal from "../VariationProductModal/VariationProductModal";
 import ProductItem from "../ProductItem/ProductItem";
+import OrderSummary from "../OrderSummary/OrderSummary";
 
 const Shop = () => {
   const [products] = useProducts();
@@ -52,6 +53,7 @@ const Shop = () => {
               {products.map((product) => <ProductItem key={product.unique_key} product={product} handleCart={handleCart}></ProductItem>)}
             </div>  
            <div className="cart-wrapper"> 
+              <OrderSummary cart={cart}></OrderSummary>
               {cart?.map((cartItem)=> <CartItem key={cartItem.unique_key} cart={cartItem} incDecHandle={incDecHandle}> {cartItem.name}</CartItem>)}
            </div>
            </div>
