@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 import "./Shop.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import useProducts from "../../hooks/useProducts";
+import useData from "../../hooks/useData";
 
 import CartItem from '../CartItem/CartItem';
 import VariationProductModal from "../VariationProductModal/VariationProductModal";
 import ProductItem from "../ProductItem/ProductItem";
 import OrderSummary from "../OrderSummary/OrderSummary";
+import Filter from "../Filter/Filter";
 
 const Shop = () => {
-  const [products] = useProducts();
+  const [appData] = useData();
+  const {categories, products, more} = appData;
   const [cart, setCart] = useState([]);
-
   const [show, setShow] = useState(false);
   const [variationProduct, setVariationProduct] = useState({})
 
@@ -48,12 +49,19 @@ const Shop = () => {
       <Container fluid>
         <Row>
           <Col>
-          <div className="shopping-page-wrapper">
+          
+          <div className="shopping-page-wrapper"> 
+          <div>
+            <div>
+              {/* {categories.map((category)=> <Filter category={category}></Filter>)} */}
+            </div>
             <div className="product-wrapper main-product-grid">
-              {products.map((product) => <ProductItem key={product.unique_key} product={product} handleCart={handleCart}></ProductItem>)}
+              {products?.map((product) => <ProductItem key={product.unique_key} product={product} handleCart={handleCart}></ProductItem>)}
             </div>  
+          </div> 
+           
            <div className="cart-wrapper"> 
-              <OrderSummary cart={cart}></OrderSummary>
+              <OrderSummary cart={cart} more={more}></OrderSummary>
               {cart?.map((cartItem)=> <CartItem key={cartItem.unique_key} cart={cartItem} incDecHandle={incDecHandle}> {cartItem.name}</CartItem>)}
            </div>
            </div>

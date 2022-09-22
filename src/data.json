@@ -1,0 +1,2363 @@
+{
+   "products":[
+      {
+         "unique_key":1,
+         "multiple":false,
+         "category_wise_item_id":1,
+         "category_id":1,
+         "name":"Daniyal Special Salad (Chicken, Prawn & Beef)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":450,
+         "category":"SALAD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":2,
+         "multiple":false,
+         "category_wise_item_id":2,
+         "category_id":1,
+         "name":"Chicken Prawn Cashew Nut Salad",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":420,
+         "category":"SALAD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":3,
+         "multiple":false,
+         "category_wise_item_id":3,
+         "category_id":1,
+         "name":"Grilled Chicken Salad",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":350,
+         "category":"SALAD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":4,
+         "multiple":false,
+         "category_wise_item_id":4,
+         "category_id":1,
+         "name":"Chicken Lub Gai Salad",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":370,
+         "category":"SALAD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":5,
+         "multiple":false,
+         "category_wise_item_id":5,
+         "category_id":1,
+         "name":"Prawn Cashew Nut Salad",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":400,
+         "category":"SALAD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":6,
+         "multiple":false,
+         "category_wise_item_id":6,
+         "category_id":1,
+         "name":"Chicken Cashew Nut Salad",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":350,
+         "category":"SALAD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":7,
+         "multiple":false,
+         "category_wise_item_id":7,
+         "category_id":1,
+         "name":"Green Salad",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":180,
+         "category":"SALAD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":8,
+         "multiple":false,
+         "category_wise_item_id":8,
+         "category_id":2,
+         "name":"Daniyal Special Soup",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":550,
+         "category":"SOUP",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":11,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Thai Soup (Thick\/Clear)",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":9,
+               "category_wise_item_id":9,
+               "category_id":2,
+               "name":"Thai Soup (Thick\/Clear)",
+               "price":180,
+               "category":"SOUP",
+               "sub_category":"1:1"
+            },
+            {
+               "unique_key":10,
+               "category_wise_item_id":10,
+               "category_id":2,
+               "name":"Thai Soup (Thick\/Clear)",
+               "price":440,
+               "category":"SOUP",
+               "sub_category":"1:3"
+            }
+         ]
+      },
+      {
+         "unique_key":14,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Chicken Corn Soup",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":12,
+               "category_wise_item_id":11,
+               "category_id":2,
+               "name":"Chicken Corn Soup",
+               "price":140,
+               "category":"SOUP",
+               "sub_category":"1:1"
+            },
+            {
+               "unique_key":13,
+               "category_wise_item_id":12,
+               "category_id":2,
+               "name":"Chicken Corn Soup",
+               "price":320,
+               "category":"SOUP",
+               "sub_category":"1:3"
+            }
+         ]
+      },
+      {
+         "unique_key":15,
+         "multiple":false,
+         "category_wise_item_id":13,
+         "category_id":2,
+         "name":"Top yum Soup",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":500,
+         "category":"SOUP",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":18,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Clear vegetable Soup",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":16,
+               "category_wise_item_id":14,
+               "category_id":2,
+               "name":"Clear vegetable Soup",
+               "price":120,
+               "category":"SOUP",
+               "sub_category":"1:1"
+            },
+            {
+               "unique_key":17,
+               "category_wise_item_id":15,
+               "category_id":2,
+               "name":"Clear vegetable Soup",
+               "price":300,
+               "category":"SOUP",
+               "sub_category":"1:3"
+            }
+         ]
+      },
+      {
+         "unique_key":19,
+         "multiple":false,
+         "category_wise_item_id":16,
+         "category_id":2,
+         "name":"Sea Food Soup",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":460,
+         "category":"SOUP",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":20,
+         "multiple":false,
+         "category_wise_item_id":17,
+         "category_id":2,
+         "name":"Crispy Rice Soup",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":550,
+         "category":"SOUP",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":21,
+         "multiple":false,
+         "category_wise_item_id":18,
+         "category_id":2,
+         "name":"Coconut Milk Soup",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":380,
+         "category":"SOUP",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":24,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Hot & Sour Soup",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":22,
+               "category_wise_item_id":19,
+               "category_id":2,
+               "name":"Hot & Sour Soup",
+               "price":150,
+               "category":"SOUP",
+               "sub_category":"1:1"
+            },
+            {
+               "unique_key":23,
+               "category_wise_item_id":20,
+               "category_id":2,
+               "name":"Hot & Sour Soup",
+               "price":370,
+               "category":"SOUP",
+               "sub_category":"1:3"
+            }
+         ]
+      },
+      {
+         "unique_key":25,
+         "multiple":false,
+         "category_wise_item_id":21,
+         "category_id":3,
+         "name":"Daniyal Special Mixed Appetizer (Springroll-3, Wonton-3, Wings-3,Fish Finger-3)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":550,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":26,
+         "multiple":false,
+         "category_wise_item_id":22,
+         "category_id":3,
+         "name":"Fried Panko Prawn (6 Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":350,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":27,
+         "multiple":false,
+         "category_wise_item_id":23,
+         "category_id":3,
+         "name":"Shrimp Toast (8Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":410,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":28,
+         "multiple":false,
+         "category_wise_item_id":24,
+         "category_id":3,
+         "name":"Butter Deep Fried Prawn (6Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":350,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":29,
+         "multiple":false,
+         "category_wise_item_id":25,
+         "category_id":3,
+         "name":"Wonthon Normal (6 Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":290,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":30,
+         "multiple":false,
+         "category_wise_item_id":26,
+         "category_id":3,
+         "name":"Special Wonthon (6 Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":350,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":31,
+         "multiple":false,
+         "category_wise_item_id":27,
+         "category_id":3,
+         "name":"Vegetable Spring Roll (6 Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":270,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":32,
+         "multiple":false,
+         "category_wise_item_id":28,
+         "category_id":3,
+         "name":"French Fry",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":33,
+         "multiple":false,
+         "category_wise_item_id":29,
+         "category_id":3,
+         "name":"Bar-B-Q Chicken Wings (9 Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":380,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":34,
+         "multiple":false,
+         "category_wise_item_id":30,
+         "category_id":3,
+         "name":"Chicken Lollipop (6 Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":260,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":35,
+         "multiple":false,
+         "category_wise_item_id":31,
+         "category_id":3,
+         "name":"Fried Chicken Wings (6 Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":270,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":36,
+         "multiple":false,
+         "category_wise_item_id":32,
+         "category_id":3,
+         "name":"Fish Finger (6 pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":340,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":37,
+         "multiple":false,
+         "category_wise_item_id":33,
+         "category_id":3,
+         "name":"Fish Cake (9 pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":410,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":38,
+         "multiple":false,
+         "category_wise_item_id":34,
+         "category_id":3,
+         "name":"Fish Cutlet",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":330,
+         "category":"APPETIZERS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":39,
+         "multiple":false,
+         "category_wise_item_id":35,
+         "category_id":4,
+         "name":"Daniyal Special Burger",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":180,
+         "category":"CONTINENTAL\/FAST FOOD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":40,
+         "multiple":false,
+         "category_wise_item_id":36,
+         "category_id":4,
+         "name":"Bar.B.Q Roasted Burger",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":240,
+         "category":"CONTINENTAL\/FAST FOOD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":41,
+         "multiple":false,
+         "category_wise_item_id":37,
+         "category_id":4,
+         "name":"Beef Burger",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"CONTINENTAL\/FAST FOOD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":42,
+         "multiple":false,
+         "category_wise_item_id":38,
+         "category_id":4,
+         "name":"Chicken Burger",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":130,
+         "category":"CONTINENTAL\/FAST FOOD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":43,
+         "multiple":false,
+         "category_wise_item_id":39,
+         "category_id":4,
+         "name":"Club Sandwich With French Fry",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":190,
+         "category":"CONTINENTAL\/FAST FOOD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":44,
+         "multiple":false,
+         "category_wise_item_id":40,
+         "category_id":4,
+         "name":"Chicken Sandwich with French Fry",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"CONTINENTAL\/FAST FOOD",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":47,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Pasta Alfredo",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":45,
+               "category_wise_item_id":41,
+               "category_id":5,
+               "name":"Pasta Alfredo",
+               "price":210,
+               "category":"PASTA",
+               "sub_category":"1:1"
+            },
+            {
+               "unique_key":46,
+               "category_wise_item_id":42,
+               "category_id":5,
+               "name":"Pasta Alfredo",
+               "price":330,
+               "category":"PASTA",
+               "sub_category":"1:2"
+            }
+         ]
+      },
+      {
+         "unique_key":50,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Oven Baked chicken Pasta",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":48,
+               "category_wise_item_id":43,
+               "category_id":5,
+               "name":"Oven Baked chicken Pasta",
+               "price":190,
+               "category":"PASTA",
+               "sub_category":"1:1"
+            },
+            {
+               "unique_key":49,
+               "category_wise_item_id":44,
+               "category_id":5,
+               "name":"Oven Baked chicken Pasta",
+               "price":300,
+               "category":"PASTA",
+               "sub_category":"1:2"
+            }
+         ]
+      },
+      {
+         "unique_key":53,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Oven Baked Beef Pasta",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":51,
+               "category_wise_item_id":45,
+               "category_id":5,
+               "name":"Oven Baked Beef Pasta",
+               "price":220,
+               "category":"PASTA",
+               "sub_category":"1:1"
+            },
+            {
+               "unique_key":52,
+               "category_wise_item_id":46,
+               "category_id":5,
+               "name":"Oven Baked Beef Pasta",
+               "price":350,
+               "category":"PASTA",
+               "sub_category":"1:2"
+            }
+         ]
+      },
+      {
+         "unique_key":56,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Oven Baked B-B-Q Pasta",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":54,
+               "category_wise_item_id":47,
+               "category_id":5,
+               "name":"Oven Baked B-B-Q Pasta",
+               "price":240,
+               "category":"PASTA",
+               "sub_category":"1:1"
+            },
+            {
+               "unique_key":55,
+               "category_wise_item_id":48,
+               "category_id":5,
+               "name":"Oven Baked B-B-Q Pasta",
+               "price":400,
+               "category":"PASTA",
+               "sub_category":"1:2"
+            }
+         ]
+      },
+      {
+         "unique_key":60,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Daniyal Special Pizza",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":57,
+               "category_wise_item_id":49,
+               "category_id":6,
+               "name":"Daniyal Special Pizza",
+               "price":420,
+               "category":"PIZZA",
+               "sub_category":"6 inch"
+            },
+            {
+               "unique_key":58,
+               "category_wise_item_id":50,
+               "category_id":6,
+               "name":"Daniyal Special Pizza",
+               "price":530,
+               "category":"PIZZA",
+               "sub_category":"9 inch"
+            },
+            {
+               "unique_key":59,
+               "category_wise_item_id":51,
+               "category_id":6,
+               "name":"Daniyal Special Pizza",
+               "price":680,
+               "category":"PIZZA",
+               "sub_category":"13 inch"
+            }
+         ]
+      },
+      {
+         "unique_key":64,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Beef Pizza",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":61,
+               "category_wise_item_id":52,
+               "category_id":6,
+               "name":"Beef Pizza",
+               "price":430,
+               "category":"PIZZA",
+               "sub_category":"6 inch"
+            },
+            {
+               "unique_key":62,
+               "category_wise_item_id":53,
+               "category_id":6,
+               "name":"Beef Pizza",
+               "price":560,
+               "category":"PIZZA",
+               "sub_category":"9 inch"
+            },
+            {
+               "unique_key":63,
+               "category_wise_item_id":54,
+               "category_id":6,
+               "name":"Beef Pizza",
+               "price":780,
+               "category":"PIZZA",
+               "sub_category":"13 inch"
+            }
+         ]
+      },
+      {
+         "unique_key":68,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Mexican Pizza Hot",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":65,
+               "category_wise_item_id":55,
+               "category_id":6,
+               "name":"Mexican Pizza Hot",
+               "price":480,
+               "category":"PIZZA",
+               "sub_category":"6 inch"
+            },
+            {
+               "unique_key":66,
+               "category_wise_item_id":56,
+               "category_id":6,
+               "name":"Mexican Pizza Hot",
+               "price":580,
+               "category":"PIZZA",
+               "sub_category":"9 inch"
+            },
+            {
+               "unique_key":67,
+               "category_wise_item_id":57,
+               "category_id":6,
+               "name":"Mexican Pizza Hot",
+               "price":720,
+               "category":"PIZZA",
+               "sub_category":"13 inch"
+            }
+         ]
+      },
+      {
+         "unique_key":72,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Chef Special Pizza",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":69,
+               "category_wise_item_id":58,
+               "category_id":6,
+               "name":"Chef Special Pizza",
+               "price":580,
+               "category":"PIZZA",
+               "sub_category":"6 inch"
+            },
+            {
+               "unique_key":70,
+               "category_wise_item_id":59,
+               "category_id":6,
+               "name":"Chef Special Pizza",
+               "price":680,
+               "category":"PIZZA",
+               "sub_category":"9 inch"
+            },
+            {
+               "unique_key":71,
+               "category_wise_item_id":60,
+               "category_id":6,
+               "name":"Chef Special Pizza",
+               "price":810,
+               "category":"PIZZA",
+               "sub_category":"13 inch"
+            }
+         ]
+      },
+      {
+         "unique_key":76,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Chicken Pizza",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":73,
+               "category_wise_item_id":61,
+               "category_id":6,
+               "name":"Chicken Pizza",
+               "price":380,
+               "category":"PIZZA",
+               "sub_category":"6 inch"
+            },
+            {
+               "unique_key":74,
+               "category_wise_item_id":62,
+               "category_id":6,
+               "name":"Chicken Pizza",
+               "price":510,
+               "category":"PIZZA",
+               "sub_category":"9 inch"
+            },
+            {
+               "unique_key":75,
+               "category_wise_item_id":63,
+               "category_id":6,
+               "name":"Chicken Pizza",
+               "price":670,
+               "category":"PIZZA",
+               "sub_category":"13 inch"
+            }
+         ]
+      },
+      {
+         "unique_key":80,
+         "multiple":true,
+         "category_wise_item_id":null,
+         "name":"Bar-B-Q Pizza",
+         "image":null,
+         "price":null,
+         "category":null,
+         "sub_category":null,
+         "category_wise_items":[
+            {
+               "unique_key":77,
+               "category_wise_item_id":64,
+               "category_id":6,
+               "name":"Bar-B-Q Pizza",
+               "price":490,
+               "category":"PIZZA",
+               "sub_category":"6 inch"
+            },
+            {
+               "unique_key":78,
+               "category_wise_item_id":65,
+               "category_id":6,
+               "name":"Bar-B-Q Pizza",
+               "price":590,
+               "category":"PIZZA",
+               "sub_category":"9 inch"
+            },
+            {
+               "unique_key":79,
+               "category_wise_item_id":66,
+               "category_id":6,
+               "name":"Bar-B-Q Pizza",
+               "price":730,
+               "category":"PIZZA",
+               "sub_category":"13 inch"
+            }
+         ]
+      },
+      {
+         "unique_key":81,
+         "multiple":false,
+         "category_wise_item_id":67,
+         "category_id":7,
+         "name":"Chinese Fried Chicken (Local 6P)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":480,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":82,
+         "multiple":false,
+         "category_wise_item_id":68,
+         "category_id":7,
+         "name":"Thai Fried Chicken (Boiler 6p)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":440,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":83,
+         "multiple":false,
+         "category_wise_item_id":69,
+         "category_id":7,
+         "name":"Chicken Sizzling",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":530,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":84,
+         "multiple":false,
+         "category_wise_item_id":70,
+         "category_id":7,
+         "name":"Chicken Red curry",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":440,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":85,
+         "multiple":false,
+         "category_wise_item_id":71,
+         "category_id":7,
+         "name":"Chicken Chili Onion",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":350,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":86,
+         "multiple":false,
+         "category_wise_item_id":72,
+         "category_id":7,
+         "name":"Kung pao Chicken",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":450,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":87,
+         "multiple":false,
+         "category_wise_item_id":73,
+         "category_id":7,
+         "name":"Szechuan Chicken (Greve)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":390,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":88,
+         "multiple":false,
+         "category_wise_item_id":74,
+         "category_id":7,
+         "name":"Lemon Chicken",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":440,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":89,
+         "multiple":false,
+         "category_wise_item_id":75,
+         "category_id":7,
+         "name":"Chicken Hot Sauce",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":390,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":90,
+         "multiple":false,
+         "category_wise_item_id":76,
+         "category_id":7,
+         "name":"Fried Chicken Chili",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":340,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":91,
+         "multiple":false,
+         "category_wise_item_id":77,
+         "category_id":7,
+         "name":"Chicken Basil Leaf",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":390,
+         "category":"CHICKEN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":92,
+         "multiple":false,
+         "category_wise_item_id":78,
+         "category_id":8,
+         "name":"Mongolian Beef",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":740,
+         "category":"BEEF",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":93,
+         "multiple":false,
+         "category_wise_item_id":79,
+         "category_id":8,
+         "name":"Beef Sizzling",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":550,
+         "category":"BEEF",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":94,
+         "multiple":false,
+         "category_wise_item_id":80,
+         "category_id":8,
+         "name":"Beef Chili Onion",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":390,
+         "category":"BEEF",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":95,
+         "multiple":false,
+         "category_wise_item_id":81,
+         "category_id":8,
+         "name":"Beef Oyster sauce",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":490,
+         "category":"BEEF",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":96,
+         "multiple":false,
+         "category_wise_item_id":82,
+         "category_id":8,
+         "name":"Beef chili Dry",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":460,
+         "category":"BEEF",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":97,
+         "multiple":false,
+         "category_wise_item_id":83,
+         "category_id":8,
+         "name":"Beef Hot Sauce",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":390,
+         "category":"BEEF",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":98,
+         "multiple":false,
+         "category_wise_item_id":84,
+         "category_id":8,
+         "name":"Szechuan Beef",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":380,
+         "category":"BEEF",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":99,
+         "multiple":false,
+         "category_wise_item_id":85,
+         "category_id":8,
+         "name":"Beef with Mushroom",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":450,
+         "category":"BEEF",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":100,
+         "multiple":false,
+         "category_wise_item_id":86,
+         "category_id":9,
+         "name":"Prawn Hot Sauce",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":420,
+         "category":"PRAWN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":101,
+         "multiple":false,
+         "category_wise_item_id":87,
+         "category_id":9,
+         "name":"Prawn chili",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":380,
+         "category":"PRAWN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":102,
+         "multiple":false,
+         "category_wise_item_id":88,
+         "category_id":9,
+         "name":"Hunan Prawn",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":390,
+         "category":"PRAWN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":103,
+         "multiple":false,
+         "category_wise_item_id":89,
+         "category_id":9,
+         "name":"Prawn Mushroom",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":380,
+         "category":"PRAWN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":104,
+         "multiple":false,
+         "category_wise_item_id":90,
+         "category_id":9,
+         "name":"Prawn Sizzling",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":560,
+         "category":"PRAWN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":105,
+         "multiple":false,
+         "category_wise_item_id":91,
+         "category_id":9,
+         "name":"Sweet & Sour Prawn",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":410,
+         "category":"PRAWN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":106,
+         "multiple":false,
+         "category_wise_item_id":92,
+         "category_id":10,
+         "name":"Grilled Red Snapper Fish (per 100gm)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"BAR-B-Q",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":107,
+         "multiple":false,
+         "category_wise_item_id":93,
+         "category_id":10,
+         "name":"Steam Red Snapper Fish (per 100gm)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":180,
+         "category":"BAR-B-Q",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":108,
+         "multiple":false,
+         "category_wise_item_id":94,
+         "category_id":10,
+         "name":"Grilled Lobster (per 100gm)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":200,
+         "category":"BAR-B-Q",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":109,
+         "multiple":false,
+         "category_wise_item_id":95,
+         "category_id":10,
+         "name":"Hot Sauce Lobster (per 100gm)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":220,
+         "category":"BAR-B-Q",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":110,
+         "multiple":false,
+         "category_wise_item_id":96,
+         "category_id":10,
+         "name":"Grilled Pomfret (1pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":400,
+         "category":"BAR-B-Q",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":111,
+         "multiple":false,
+         "category_wise_item_id":97,
+         "category_id":10,
+         "name":"Fried Pomfret (1pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":380,
+         "category":"BAR-B-Q",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":112,
+         "multiple":false,
+         "category_wise_item_id":98,
+         "category_id":10,
+         "name":"Fish Chili",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":400,
+         "category":"BAR-B-Q",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":113,
+         "multiple":false,
+         "category_wise_item_id":99,
+         "category_id":10,
+         "name":"Fish Garlic waster Sauce (1:3)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":430,
+         "category":"BAR-B-Q",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":114,
+         "multiple":false,
+         "category_wise_item_id":100,
+         "category_id":10,
+         "name":"Fish Dry Red chili (1:3)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":390,
+         "category":"BAR-B-Q",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":115,
+         "multiple":false,
+         "category_wise_item_id":101,
+         "category_id":11,
+         "name":"Daniyal Special Fried Rice Chicken\/Beef\/Prawn",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":450,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":116,
+         "multiple":false,
+         "category_wise_item_id":102,
+         "category_id":11,
+         "name":"Special Fried Rice Chicken & Prawn",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":400,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":117,
+         "multiple":false,
+         "category_wise_item_id":103,
+         "category_id":11,
+         "name":"Yang Chow Fried Rice Chicken\/Beef\/Prawn ",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":420,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":118,
+         "multiple":false,
+         "category_wise_item_id":104,
+         "category_id":11,
+         "name":"Vegetable Fried Rice only Vegetable",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":300,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":119,
+         "multiple":false,
+         "category_wise_item_id":105,
+         "category_id":11,
+         "name":"Egg Fried Rice",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":310,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":120,
+         "multiple":false,
+         "category_wise_item_id":106,
+         "category_id":11,
+         "name":"Basil Leaf Fried Rice",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":340,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":121,
+         "multiple":false,
+         "category_wise_item_id":107,
+         "category_id":11,
+         "name":"Schezwan Fried Rice",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":380,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":122,
+         "multiple":false,
+         "category_wise_item_id":108,
+         "category_id":11,
+         "name":"Mix Fried Rice",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":370,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":123,
+         "multiple":false,
+         "category_wise_item_id":109,
+         "category_id":11,
+         "name":"Chicken Fried Rice",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":360,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":124,
+         "multiple":false,
+         "category_wise_item_id":110,
+         "category_id":11,
+         "name":"Beef Fried Rice",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":370,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":125,
+         "multiple":false,
+         "category_wise_item_id":111,
+         "category_id":11,
+         "name":"Prawn Fried Rice",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":390,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":126,
+         "multiple":false,
+         "category_wise_item_id":112,
+         "category_id":11,
+         "name":"Garlic Mushroom Rice",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":450,
+         "category":"FRIDE-RICE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":127,
+         "multiple":false,
+         "category_wise_item_id":113,
+         "category_id":12,
+         "name":"Daniyal Special Chowmein",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":480,
+         "category":"NOODLES & CHOWMEIN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":128,
+         "multiple":false,
+         "category_wise_item_id":114,
+         "category_id":12,
+         "name":"Pad Thai Noodles",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":450,
+         "category":"NOODLES & CHOWMEIN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":129,
+         "multiple":false,
+         "category_wise_item_id":115,
+         "category_id":12,
+         "name":"Hakka Noodles",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":410,
+         "category":"NOODLES & CHOWMEIN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":130,
+         "multiple":false,
+         "category_wise_item_id":116,
+         "category_id":12,
+         "name":"Vegetable Chowmein",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":340,
+         "category":"NOODLES & CHOWMEIN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":131,
+         "multiple":false,
+         "category_wise_item_id":117,
+         "category_id":12,
+         "name":"Chicken Chowmein",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":360,
+         "category":"NOODLES & CHOWMEIN",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":132,
+         "multiple":false,
+         "category_wise_item_id":118,
+         "category_id":13,
+         "name":"Daniyal Special ChaopSuey",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":450,
+         "category":"CHAOP SUEY",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":133,
+         "multiple":false,
+         "category_wise_item_id":119,
+         "category_id":13,
+         "name":"American ChaopSuey",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":390,
+         "category":"CHAOP SUEY",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":134,
+         "multiple":false,
+         "category_wise_item_id":120,
+         "category_id":13,
+         "name":"Chinese Chaop Suey",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":350,
+         "category":"CHAOP SUEY",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":135,
+         "multiple":false,
+         "category_wise_item_id":121,
+         "category_id":14,
+         "name":"Daniyal Special Vegetable (with Chicken & Prawn)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":400,
+         "category":"VEGETABLE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":136,
+         "multiple":false,
+         "category_wise_item_id":122,
+         "category_id":14,
+         "name":"Thai mix Vegetable",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":340,
+         "category":"VEGETABLE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":137,
+         "multiple":false,
+         "category_wise_item_id":123,
+         "category_id":14,
+         "name":"Chinese Vegetable",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":320,
+         "category":"VEGETABLE",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":138,
+         "multiple":false,
+         "category_wise_item_id":124,
+         "category_id":15,
+         "name":"Cup Cake (1 Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":80,
+         "category":"DESSERT",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":139,
+         "multiple":false,
+         "category_wise_item_id":125,
+         "category_id":15,
+         "name":"Yogurt 1 Cup",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":50,
+         "category":"DESSERT",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":140,
+         "multiple":false,
+         "category_wise_item_id":126,
+         "category_id":15,
+         "name":"Pudding (1 Pcs)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":80,
+         "category":"DESSERT",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":141,
+         "multiple":false,
+         "category_wise_item_id":127,
+         "category_id":15,
+         "name":"Ice Cream (per cup any flavor)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":120,
+         "category":"DESSERT",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":142,
+         "multiple":false,
+         "category_wise_item_id":128,
+         "category_id":15,
+         "name":"Kulfi",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":120,
+         "category":"DESSERT",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":143,
+         "multiple":false,
+         "category_wise_item_id":129,
+         "category_id":16,
+         "name":"Coke, Sprite, Pepsi, 7up",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":25,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":144,
+         "multiple":false,
+         "category_wise_item_id":130,
+         "category_id":16,
+         "name":"Hot Coffee",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":120,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":145,
+         "multiple":false,
+         "category_wise_item_id":131,
+         "category_id":16,
+         "name":"Cold Coffee",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":146,
+         "multiple":false,
+         "category_wise_item_id":132,
+         "category_id":16,
+         "name":"Ice Coffee",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":147,
+         "multiple":false,
+         "category_wise_item_id":133,
+         "category_id":16,
+         "name":"Pineapple",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":120,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":148,
+         "multiple":false,
+         "category_wise_item_id":134,
+         "category_id":16,
+         "name":"Orange",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":149,
+         "multiple":false,
+         "category_wise_item_id":135,
+         "category_id":16,
+         "name":"Malta",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":150,
+         "multiple":false,
+         "category_wise_item_id":136,
+         "category_id":16,
+         "name":"Watermelon",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":120,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":151,
+         "multiple":false,
+         "category_wise_item_id":137,
+         "category_id":16,
+         "name":"Apple",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":152,
+         "multiple":false,
+         "category_wise_item_id":138,
+         "category_id":16,
+         "name":"Mango",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":130,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":153,
+         "multiple":false,
+         "category_wise_item_id":139,
+         "category_id":16,
+         "name":"Strawberry",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":154,
+         "multiple":false,
+         "category_wise_item_id":140,
+         "category_id":16,
+         "name":"Green Mango",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":100,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":155,
+         "multiple":false,
+         "category_wise_item_id":141,
+         "category_id":16,
+         "name":"Papaya",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":120,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":156,
+         "multiple":false,
+         "category_wise_item_id":142,
+         "category_id":16,
+         "name":"Milk Shake (Strawberry)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":150,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":157,
+         "multiple":false,
+         "category_wise_item_id":143,
+         "category_id":16,
+         "name":"Milk Shake (Vanilla)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":140,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":158,
+         "multiple":false,
+         "category_wise_item_id":144,
+         "category_id":16,
+         "name":"Milk Shake (Chocolate)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":160,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":159,
+         "multiple":false,
+         "category_wise_item_id":145,
+         "category_id":16,
+         "name":"Water (500ml)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":15,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":160,
+         "multiple":false,
+         "category_wise_item_id":146,
+         "category_id":16,
+         "name":"Water (1Ltr)",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":30,
+         "category":"SEASONAL JUICE & DRINKS",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":161,
+         "multiple":false,
+         "category_wise_item_id":147,
+         "category_id":17,
+         "name":"Set Menu 126",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":420,
+         "category":"Set Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":162,
+         "multiple":false,
+         "category_wise_item_id":148,
+         "category_id":17,
+         "name":"Set Menu 127",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":360,
+         "category":"Set Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":163,
+         "multiple":false,
+         "category_wise_item_id":149,
+         "category_id":17,
+         "name":"Set Menu 128",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":380,
+         "category":"Set Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":164,
+         "multiple":false,
+         "category_wise_item_id":150,
+         "category_id":17,
+         "name":"Set Menu 129",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":450,
+         "category":"Set Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":165,
+         "multiple":false,
+         "category_wise_item_id":151,
+         "category_id":17,
+         "name":"Set Menu 130",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":290,
+         "category":"Set Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":166,
+         "multiple":false,
+         "category_wise_item_id":152,
+         "category_id":17,
+         "name":"Set Menu 131",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":550,
+         "category":"Set Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":167,
+         "multiple":false,
+         "category_wise_item_id":153,
+         "category_id":18,
+         "name":"Platter Menu 1",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":350,
+         "category":"Platter Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":168,
+         "multiple":false,
+         "category_wise_item_id":154,
+         "category_id":18,
+         "name":"Platter Menu 2",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":320,
+         "category":"Platter Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":169,
+         "multiple":false,
+         "category_wise_item_id":155,
+         "category_id":18,
+         "name":"Platter Menu 3",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":490,
+         "category":"Platter Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":170,
+         "multiple":false,
+         "category_wise_item_id":156,
+         "category_id":18,
+         "name":"Platter Menu 4",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":540,
+         "category":"Platter Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      },
+      {
+         "unique_key":171,
+         "multiple":false,
+         "category_wise_item_id":157,
+         "category_id":18,
+         "name":"Platter Menu 5",
+         "image":"https:\/\/via.placeholder.com\/60\/D8F8FF\/398D9F?Text=Thumb",
+         "price":220,
+         "category":"Platter Menu",
+         "sub_category":null,
+         "category_wise_items":[
+            
+         ]
+      }
+   ],
+   "categories":[
+      {
+         "id":1,
+         "name":"SALAD"
+      },
+      {
+         "id":2,
+         "name":"SOUP"
+      },
+      {
+         "id":3,
+         "name":"APPETIZERS"
+      },
+      {
+         "id":4,
+         "name":"CONTINENTAL\/FAST FOOD"
+      },
+      {
+         "id":5,
+         "name":"PASTA"
+      },
+      {
+         "id":6,
+         "name":"PIZZA"
+      },
+      {
+         "id":7,
+         "name":"CHICKEN"
+      },
+      {
+         "id":8,
+         "name":"BEEF"
+      },
+      {
+         "id":9,
+         "name":"PRAWN"
+      },
+      {
+         "id":10,
+         "name":"BAR-B-Q"
+      },
+      {
+         "id":11,
+         "name":"FRIDE-RICE"
+      },
+      {
+         "id":12,
+         "name":"NOODLES & CHOWMEIN"
+      },
+      {
+         "id":13,
+         "name":"CHAOP SUEY"
+      },
+      {
+         "id":14,
+         "name":"VEGETABLE"
+      },
+      {
+         "id":15,
+         "name":"DESSERT"
+      },
+      {
+         "id":16,
+         "name":"SEASONAL JUICE & DRINKS"
+      },
+      {
+         "id":17,
+         "name":"Set Menu"
+      },
+      {
+         "id":18,
+         "name":"Platter Menu"
+      }
+   ],
+   "more":{
+      "waiters":[
+         {
+            "id":1,
+            "name":"Waiter-1"
+         },
+         {
+            "id":2,
+            "name":"Waiter-2"
+         },
+         {
+            "id":3,
+            "name":"Waiter-3"
+         },
+         {
+            "id":4,
+            "name":"Waiter-4"
+         },
+         {
+            "id":5,
+            "name":"Waiter-5"
+         }
+      ],
+      "tables":[
+         {
+            "id":1,
+            "name":"1"
+         },
+         {
+            "id":2,
+            "name":"2"
+         },
+         {
+            "id":3,
+            "name":"3"
+         },
+         {
+            "id":4,
+            "name":"4"
+         },
+         {
+            "id":5,
+            "name":"5"
+         },
+         {
+            "id":6,
+            "name":"6"
+         },
+         {
+            "id":7,
+            "name":"7"
+         },
+         {
+            "id":8,
+            "name":"8"
+         },
+         {
+            "id":9,
+            "name":"9"
+         },
+         {
+            "id":10,
+            "name":"10"
+         }
+      ],
+      "payment_methods":[
+         {
+            "id":1,
+            "name":"Cash"
+         },
+         {
+            "id":2,
+            "name":"Card"
+         },
+         {
+            "id":3,
+            "name":"bKash"
+         },
+         {
+            "id":4,
+            "name":"Rocket"
+         }
+      ],
+      "logo":"https:\/\/res.mdsakir.com\/assets\/images\/no-logo.png",
+      "bin_number":null,
+      "vat_percentage":"0",
+      "vat_inclusive":"1",
+      "membership_activation":"0"
+   }
+}

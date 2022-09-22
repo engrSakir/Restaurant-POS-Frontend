@@ -4,7 +4,7 @@ import ProductItem from '../ProductItem/ProductItem';
 
 const VariationProductModal = ({show, setShow, variationProduct, handleCart}) => {
   const {name, category_wise_items} = variationProduct
-   console.log(variationProduct);
+  //  console.log(variationProduct);
   const handleClose = () => setShow(false);
     return (
         <div>
