@@ -5,14 +5,14 @@ const CartItem = ({cart, incDecHandle}) => {
     // console.log(cart);
     return (
         <div className='cart-item'>
-           <div>
+           <div className='cart-thumb'>
            {cart.image? <img src={cart.image} alt=""/>: <img src="https://via.placeholder.com/60" alt="" />} 
            </div>
-            <div>
+            <div className='cart-product-info'>
                 <h6 className='m-0'>{cart.name}</h6>
                 <p className='m-0'> {cart.price} x {cart.qty} = {cart.price * cart.qty}</p>
              </div>
-             <div>
+             <div className='cart-qty-handeler'>
                 <div className='qty-counter'>
                     <div>
                         <button onClick={()=> {incDecHandle('decrement', cart.unique_key)}}><FontAwesomeIcon icon={faMinus} /></button>

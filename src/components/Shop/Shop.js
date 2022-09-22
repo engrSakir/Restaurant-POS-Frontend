@@ -46,15 +46,14 @@ const Shop = () => {
     <div>
       <Container fluid>
         <Row>
-          <Col lg="9">
+          <Col>
+          <div className="shopping-page-wrapper">
             <div className="product-wrapper main-product-grid">
               {products.map((product) => <ProductItem key={product.unique_key} product={product} handleCart={handleCart}></ProductItem>)}
-            </div>
-          </Col>
-          <Col lg="3">
-
+            </div>  
            <div className="cart-wrapper"> 
               {cart?.map((cartItem)=> <CartItem key={cartItem.unique_key} cart={cartItem} incDecHandle={incDecHandle}> {cartItem.name}</CartItem>)}
+           </div>
            </div>
           </Col>
         </Row>
