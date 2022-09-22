@@ -15,37 +15,12 @@ const Shop = () => {
   const [variationProduct, setVariationProduct] = useState({})
 
   const createShoppingCart = selectedItem => {
-    const cartItem = {
-      'unique_key': selectedItem.unique_key,
-      'name': selectedItem.name,
-      'image': selectedItem.image,
-      'price': selectedItem.price, 
-      'qty': 1,
-    } 
-    // console.log(selectedItem);
-   
-    if(cart.length > 0){ 
-      const restElement = cart.filter((elem)=> elem.unique_key !== selectedItem.unique_key);
-      for (let index = 0; index < cart.length; index++) {
-          const element = cart[index];
-        if (element.unique_key === selectedItem.unique_key) {
-          const updatedItem = element;
-          updatedItem.qty = updatedItem.qty + 1; 
-          setCart([...restElement, updatedItem]);
-          // console.log(restElement);
-          // console.log("checked! and exist");
-          return
-        } else{
-          setCart([...cart, cartItem]);
-          // console.log("checked! but not exist");
-        }
-      }
-     
+    const exist = cart?.find((cartItem) => cartItem.unique_key === selectedItem.unique_key);
+    if(exist){
+      setCart(cart.map((x) => x.unique_key === selectedItem.unique_key? { ...x, qty: x.qty + 1 } : {...x}))
     } else{
-      setCart([...cart, cartItem]);
-      // console.log("not checked!");
-    }
-    // console.log(cart);
+      setCart([ ...cart, {...selectedItem, qty: 1}])
+    } 
   }
 
  
@@ -59,26 +34,11 @@ const Shop = () => {
   }
 
   const incDecHandle = (operationType, operationalProductID) => {
-    // console.log(operationType, operationalProductID, "++");
-    const restElement = cart.filter((elem)=> elem.unique_key !== operationalProductID);
-    // console.log(restElement);
-    for (let index = 0; index < cart.length; index++) {
-      const element = cart[index];
-    if (element.unique_key === operationalProductID) {
-      const updatedItem = element;
-      if(operationType === 'decrement' && updatedItem.qty > 1){
-        updatedItem.qty = updatedItem.qty - 1; 
-      } 
-      if(operationType === 'increment') {
-        updatedItem.qty = updatedItem.qty + 1; 
-      }
-      
-      setCart([...restElement, updatedItem]);
-      // console.log(restElement);
-      // console.log("Update");
-      return
-    } 
-  }
+    if(operationType === "increment"){
+      setCart(cart.map((x) => x.unique_key === operationalProductID? { ...x, qty: x.qty + 1 } : {...x}))
+    }else{
+      setCart(cart.map((x) => x.unique_key === operationalProductID && x.qty > 1? { ...x, qty: x.qty - 1 } : {...x}))
+    }
   }
 
   
