@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Alert, Col, Row } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import './OrderSummary.scss';
 
@@ -8,19 +8,23 @@ const OrderSummary = ({cart, more}) => {
 //    console.log(more.payment_methods)
    const payment_methods = [{id:1, name: 'Cash'}, {id:2, name: 'bKash'},  {id:3, name: 'Card'}, {id:4, name: 'Rocket'}];
 
-   const itemsPrice = cart.reduce((count, object) => count + object.price * object.qty, 0);
+   const itemsPrice = cart.reduce((previousValue, currentValue) => previousValue + currentValue.price * currentValue.qty, 0);
    const OrderVat = itemsPrice * 0.10;
    const shippingCharge = 30;
 
-
+   let disabled = true;
    const { register, handleSubmit, watch, formState: { errors } } = useForm();
 
-   const onSubmit = data => console.log(data);
+   const onSubmit = data => {
+    console.log(data);
+    alert("Your order placed to ", data.waitersName)
+   };
 
-  
-
- const selectedPayMode = watch ('paymentMethods')
-
+    const selectedPayMode = watch ('paymentMethods', []);
+    const selectedPaidAmount =  selectedPayMode &&  watch(selectedPayMode, 0).reduce((previousValue, currentValue) => parseInt(previousValue) +  parseInt(currentValue) , 0);
+    if(itemsPrice === selectedPaidAmount){
+        disabled = false
+    }
     return (
         <div>
             <h4 className='text-center mb-3'>Total {itemsPrice}</h4>
@@ -37,20 +41,19 @@ const OrderSummary = ({cart, more}) => {
                     />
                     <label htmlFor={payMode.id}>{payMode.name}</label>
                     { selectedPayMode && selectedPayMode.includes(payMode.name)&& (
-                        <input className='form-control form-control-sm' type="text" {...register(payMode.name)} />
-                    )}
+                         <input type="number" className='form-control form-control-sm' {...register(payMode.name)} />
+                      )}
                    </div>
                 ))}
-               </div>
-               {/* {payment_methods.map((payMode)=> (
-                    selectedPayMode && selectedPayMode.includes(payMode.name)? (
-                        <div>
-                        <label>{payMode.name}</label>
-                        <input type="text" {...register(payMode.name)} />
-                    </div>
-                    ) : ""
-                ))} */}
-       
+               </div> 
+              
+               {selectedPaidAmount > itemsPrice && (
+                 <Alert className='py-2' variant='danger'>
+                Paid amount is not valid
+                </Alert>
+                )}
+             
+               
                 <Row>
                     <Col>
                     <label htmlFor="">Table Number</label>
@@ -69,11 +72,8 @@ const OrderSummary = ({cart, more}) => {
                     </select>
            
                     </Col>
-                </Row>
-             
-                
-     
-                <input type="submit" className="btn btn-secondary my-2 w-100" />
+                </Row> 
+                <button disabled={disabled} type="submit" className="btn btn-secondary my-2 w-100">pay</button>
             </form>
         </div>
     );
