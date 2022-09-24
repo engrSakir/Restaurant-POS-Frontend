@@ -6,8 +6,23 @@
     .payment-input-wrapper{
         display: flex;
         align-items: center;
+        position: relative;
         &>*{
             margin: 2px;
+        }
+        .set-rest-amount{
+            width: 20px;
+            height: 20px;
+            background-color: #f6edd2;
+            color: #ff5722;
+            position: absolute;
+            right: -10px;
+            border-radius: 30px;
+            text-align: center;
+            cursor: pointer;
+            line-height: 11px;
+            font-size: 12px;
+            padding: 3px;
         }
     }
 }

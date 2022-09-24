@@ -1,11 +1,12 @@
 .shopping-page-wrapper{
   display: grid;
-  grid-template-columns: calc(100% - 320px) 290px;
-  gap: 20px;
+  grid-template-columns: calc(100% - 320px) 320px;
+  // gap: 20px;
 }
 
 .product-wrapper {
   display: grid;
+  padding: 20px 20px 20px 5px;
   &.main-product-grid{
     // grid-template-columns: repeat(6, calc(100% / 6));
     grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -93,7 +94,8 @@
   display: flex;
   flex-direction: column;
   // background-color: #f9f9f9;
-  // padding: 20px;
+  padding: 20px 5px 20px 20px;
+  box-shadow: inset 10px 0px 8px #e0e0e0;
   .cart-item{
     display: grid;
     width: 100%;
