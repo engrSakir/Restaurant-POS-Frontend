@@ -60,8 +60,9 @@ const Shop = () => {
             </div>  
           </div> 
            
-           <div className="cart-wrapper"> 
-              <OrderSummary cart={cart} more={more}></OrderSummary>
+           <div className="cart-wrapper">
+               {cart.length > 0 && <OrderSummary cart={cart} more={more}></OrderSummary>}
+
               {cart?.map((cartItem)=> <CartItem key={cartItem.unique_key} cart={cartItem} incDecHandle={incDecHandle}> {cartItem.name}</CartItem>)}
            </div>
            </div>
