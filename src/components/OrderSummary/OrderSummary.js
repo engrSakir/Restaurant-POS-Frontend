@@ -6,8 +6,6 @@ import {faHandHoldingDollar} from '@fortawesome/free-solid-svg-icons';
 import "./OrderSummary.scss";
 
 const OrderSummary = ({cart, more}) => {
-    //    const {payment_methods, tables, waiters} = more;
-    //    console.log(more.payment_methods)
     const payment_methods = [
         {id: 1, name: "Cash"},
         {id: 2, name: "bKash"},
@@ -25,13 +23,17 @@ const OrderSummary = ({cart, more}) => {
         0
     );
     const OrderVat = itemsPrice * 0.1;
+    
     const shippingCharge = 30;
+
     const [placeOrder, setPlaceOrder] = useState();
+
     let disabled = true;
 
     useEffect(() => {
         payment_methods?.map((payMethod) => setValue(payMethod.name, 0));
-        // setValue('discountAmount', 0);
+        setValue('discountPercentAmount', 0);
+        setValue('discountFixedAmount', 0);
     }, []);
 
 
@@ -44,17 +46,14 @@ const OrderSummary = ({cart, more}) => {
     } = useForm();
 
     const selectedPayMode = watch("paymentMethods", []);
-    const selectedDiscountMode = parseInt(watch("discountMethods"));
-    const selectedDiscountAmount = parseInt(watch("discountAmount"));
-    console.log(typeof selectedDiscountMode, typeof selectedDiscountAmount);
+    const selectedDiscountMode = watch("discountType",[]);
+    
 
-    useEffect(() => {
-        setValue('discountAmount', 0);
-    }, [selectedDiscountMode]);
+    const fixedDiscountRecived = 0 +  (selectedDiscountMode && selectedDiscountMode.includes("discountFixed")) ?  parseInt(watch("discountFixedAmount")) : 0;
+    const percentDiscountRecived = 0 + (selectedDiscountMode && selectedDiscountMode.includes("discountPercent")) ? Math.round((itemsPrice * parseInt(watch("discountPercentAmount")) ) / 100) : 0;
 
-    const finalDiscount = selectedDiscountMode === 2 ? Math.round((itemsPrice * selectedDiscountAmount ) / 100) : selectedDiscountAmount;
-
-    console.log(finalDiscount)
+    const discountAmount = fixedDiscountRecived +  percentDiscountRecived ;
+    
     const selectedPaidAmount = 0 +
         selectedPayMode &&
         watch(selectedPayMode, 0).reduce((previousValue, currentValue) => parseInt(previousValue) + parseInt(currentValue), 0);
@@ -81,33 +80,30 @@ const OrderSummary = ({cart, more}) => {
     return (
         <div>
             <h5 className="text-center mb-3">Total {itemsPrice} Collected: {selectedPaidAmount}</h5>
-             <p className="text-center">Discount : {finalDiscount}</p>
-            <form onSubmit={handleSubmit(onSubmit)}>
-                <Row>
-                    <Col className="my-2">
-                        <label htmlFor="">Discount</label>
-                        <div className="input-group">
-                            <select {...register("discountMethods")} className="form-select form-select-sm my-1">
-                                <option value="0">None</option>
-                                <option value="1">Fixed</option>
-                                <option value="2">Percent</option>
-                            </select>
-                            {selectedDiscountMode > 0 && (
-                                <input
-                                    type="number"
-                                    min={0}
-                                    className="form-control form-control-sm my-1"
-                                    {...register("discountAmount")}/>
-                            )}
+             <p className="text-center">Discount : {discountAmount}</p>
+            <form onSubmit={handleSubmit(onSubmit)}> 
+                <div className="payment-methods">
+                    <div className="payment-input-wrapper">
+                        <input id="discount-percent" type="checkbox" value="discountPercent" {...register("discountType")} />
+                        <label htmlFor="discount-percent">Percent</label>
+                        {selectedDiscountMode && selectedDiscountMode.includes("discountPercent") && (
+                        <>
+                            <input type="number" min={0} max={100} className="form-control form-control-sm" {...register("discountPercentAmount")}/>
+                        </>
+                        )}
+                    </div>
 
-
-                        </div>
-
-                    </Col>
-
-
-                </Row>
-
+                    <div className="payment-input-wrapper">
+                        <input id="discount-fixed" type="checkbox" value="discountFixed" {...register("discountType")} />
+                        <label htmlFor="discount-fixed">Fixed</label>
+                        {selectedDiscountMode && selectedDiscountMode.includes("discountFixed") && (
+                            <>
+                                <input type="number" min={0} className="form-control form-control-sm" {...register("discountFixedAmount")}/>
+                            </>
+                        )}
+                       
+                    </div> 
+                </div>
                 <div className="payment-methods">
                     {payment_methods.map((payMode) => (
                         <div className="payment-input-wrapper" key={payMode.id}>
