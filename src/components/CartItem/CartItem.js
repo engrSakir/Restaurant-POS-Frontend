@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
-const CartItem = ({cart, incDecHandle}) => {
+const CartItem = ({cart, incDecHandle, updateQuantity}) => {
     // console.log(cart);
     return (
         <div className='cart-item'>
@@ -18,7 +18,7 @@ const CartItem = ({cart, incDecHandle}) => {
                         <button onClick={()=> {incDecHandle('decrement', cart.unique_key)}}><FontAwesomeIcon icon={faMinus} /></button>
                     </div>
                     <div>
-                        <input type="number" readOnly value={cart.qty} />
+                        <input type="number" name={cart.unique_key} onChange={(event)=>updateQuantity( event, cart.unique_key)} value={cart.qty} />
                     </div>
                     <div>
                         <button onClick={()=> {incDecHandle('increment', cart.unique_key)}}><FontAwesomeIcon icon={faPlus} /></button>

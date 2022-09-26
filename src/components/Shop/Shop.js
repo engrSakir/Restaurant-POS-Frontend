@@ -42,7 +42,17 @@ const Shop = () => {
       setCart(cart.map((x) => x.unique_key === operationalProductID && x.qty > 1? { ...x, qty: x.qty - 1 } : {...x}))
     }
   }
+  const  updateQuantity = (event, updatedProductID)=>{
 
+    const updatedQty = parseInt(event.target.value);
+
+    if(updatedQty > 0){
+      setCart(cart.map((x) => x.unique_key === updatedProductID? { ...x, qty: updatedQty} : {...x}))
+    } else {
+      alert("Updated quantaty should be more then 1")
+    }
+    console.log(typeof updatedQty, typeof updatedProductID);
+  }
   
   return (
     <div>
@@ -63,7 +73,7 @@ const Shop = () => {
            <div className="cart-wrapper">
                {cart.length > 0 && <OrderSummary cart={cart} more={more}></OrderSummary>}
 
-              {cart?.map((cartItem)=> <CartItem key={cartItem.unique_key} cart={cartItem} incDecHandle={incDecHandle}> {cartItem.name}</CartItem>)}
+              {cart?.map((cartItem)=> <CartItem key={cartItem.unique_key} cart={cartItem} updateQuantity={updateQuantity} incDecHandle={incDecHandle}> {cartItem.name}</CartItem>)}
            </div>
            </div>
           </Col>
