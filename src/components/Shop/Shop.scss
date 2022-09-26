@@ -1,7 +1,7 @@
 .shopping-page-wrapper {
   display: grid;
   grid-template-columns: calc(100% - 320px) 320px;
-  // gap: 20px;
+  min-height: 100vh;
 }
 
 .product-wrapper {
