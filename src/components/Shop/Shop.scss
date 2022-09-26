@@ -1,4 +1,4 @@
-.shopping-page-wrapper{
+.shopping-page-wrapper {
   display: grid;
   grid-template-columns: calc(100% - 320px) 320px;
   // gap: 20px;
@@ -7,14 +7,17 @@
 .product-wrapper {
   display: grid;
   padding: 20px 20px 20px 5px;
-  &.main-product-grid{
+
+  &.main-product-grid {
     // grid-template-columns: repeat(6, calc(100% / 6));
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
-  &.variation-product-grid{
+
+  &.variation-product-grid {
     // grid-template-columns: repeat(3, calc(100% / 3));
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
   .product-item {
     padding: 5px;
 
@@ -33,7 +36,7 @@
       cursor: pointer;
       color: #666666;
       user-select: none;
-  
+
       &:hover {
         background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
         background-color: #e9e9e9;
@@ -72,7 +75,7 @@
       display: flex;
       align-items: center;
 
-      &>span {
+      & > span {
         // padding: 3px;
         color: #b5340b;
       }
@@ -90,87 +93,132 @@
     }
   }
 }
-.cart-wrapper{
+
+.cart-wrapper {
   display: flex;
   flex-direction: column;
   // background-color: #f9f9f9;
   padding: 20px 5px 20px 20px;
   box-shadow: inset 10px 0px 8px #e0e0e0;
-  .cart-item{
+
+  .cart-item {
     display: grid;
     width: 100%;
     grid-template-columns: 40px auto 80px;
     gap: 5px;
     padding: 10px 0;
     border-bottom: 2px dotted #e9e9e9;
-    img{
+
+    .cart-thumb-inner {
+      border-radius: 100%;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      button{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f44336;
+        border-radius: 100%;
+        transition: 0.5s;
+        transform: rotate(250deg) translateX(-45px);
+        border: none;
+      }
+      svg {
+        color: #ffffff;
+      }
+    }
+
+    img {
       max-width: 100%;
       height: auto;
-      border-radius: 100%;
+      transition: 0.2s;
     }
-    .cart-product-info{
-      h6{
+
+    .cart-product-info {
+      h6 {
         font-size: 0.8rem;
       }
-      p{
+
+      p {
         font-size: 0.8rem;
       }
     }
 
 
-    .qty-counter{
+    .qty-counter {
       display: flex;
-      &>div{
-    
-        &:first-child{
-          button{
-            border-radius:4px 0 0 4px;
+
+      & > div {
+
+        &:first-child {
+          button {
+            border-radius: 4px 0 0 4px;
           }
         }
-        &:last-child{
-          button{
+
+        &:last-child {
+          button {
             border-radius: 0 4px 4px 0;
           }
         }
-        button{
+
+        button {
           width: 25px;
           height: 30px;
           border: none;
           border: 1px solid #dcdcdc;
-          
+
         }
-        input{
+
+        input {
           width: 30px;
           border: 1px solid #dcdcdc;
           text-align: center;
           height: 30px;
           -moz-appearance: textfield;
-          &::-webkit-outer-spin-button, 
-          &::-webkit-inner-spin-button{
+
+          &::-webkit-outer-spin-button,
+          &::-webkit-inner-spin-button {
             -webkit-appearance: none;
           }
         }
       }
     }
+
+    &:hover {
+      .cart-thumb-inner {
+       button{
+         transform: rotate(0deg) translateX(0px);
+       }
+      }
+
+    }
   }
 }
-@media screen and (max-width:1600px) {
+
+@media screen and (max-width: 1600px) {
   .product-wrapper {
-    &.main-product-grid{
+    &.main-product-grid {
       grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
 }
-@media screen and (max-width:1200px) {
+
+@media screen and (max-width: 1200px) {
   .product-wrapper {
-    &.main-product-grid{
+    &.main-product-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
-    } 
+    }
   }
 }
-@media screen and (max-width:800px) {
+
+@media screen and (max-width: 800px) {
   .product-wrapper {
-    &.main-product-grid{
+    &.main-product-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
