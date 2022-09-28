@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b25e537-6f7f-46a3-9544-beb1916116f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/Shop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/Shop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useCategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OrderSummary/OrderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OrderSummary/OrderSummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VariationProductModal/VariationProductModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VariationProductModal/VariationProductModal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +20,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +60,10 @@
       <workItem from="1663750480937" duration="3000" />
       <workItem from="1664040186440" duration="6211000" />
       <workItem from="1664195328349" duration="5831000" />
-      <workItem from="1664203648097" duration="4073000" />
+      <workItem from="1664203648097" duration="4350000" />
+      <workItem from="1664249076646" duration="1800000" />
+      <workItem from="1664279626575" duration="3830000" />
+      <workItem from="1664334618179" duration="2324000" />
     </task>
     <servers />
   </component>

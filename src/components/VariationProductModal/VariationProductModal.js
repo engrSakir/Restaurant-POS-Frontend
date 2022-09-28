@@ -16,15 +16,7 @@ const VariationProductModal = ({show, setShow, variationProduct, handleCart}) =>
               <div className="product-wrapper variation-product-grid">
                 {category_wise_items?.map((product) => <ProductItem product={product} key={product.unique_key} handleCart={handleCart}></ProductItem>)}
               </div>           
-            </Modal.Body>
-            <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
-                Close
-              </Button>
-              <Button variant="primary" onClick={handleClose}>
-                Save Changes
-              </Button>
-            </Modal.Footer>
+            </Modal.Body> 
           </Modal>
         </div>
     );

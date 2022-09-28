@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 
-const Filter = ({category}) => {
+const Filter = ({category, filterProductByCat}) => {
     return (
-         
-       <Button variant='secondary' className='m-1 text-uppercase'>{category.name}</Button>
+       //  onClick={}
+       <Button  onClick={()=>filterProductByCat(category.id)} variant='secondary' className='m-1 text-uppercase'>{category.name}</Button>
         
     );
 };

@@ -5,7 +5,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faHandHoldingDollar} from '@fortawesome/free-solid-svg-icons';
 import "./OrderSummary.scss";
 
-const OrderSummary = ({cart, more}) => {
+const OrderSummary = ({cart}) => {
     const payment_methods = [
         {id: 1, name: "Cash"},
         {id: 2, name: "bKash"},
