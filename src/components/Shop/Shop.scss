@@ -223,3 +223,11 @@
     }
   }
 }
+@media screen and (max-width: 700px) {
+  .shopping-page-wrapper {
+    grid-template-columns: none;
+    .cart-wrapper{
+      order: -1;
+    }
+  }
+}
