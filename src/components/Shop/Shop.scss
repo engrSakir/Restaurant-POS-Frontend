@@ -3,10 +3,12 @@
   grid-template-columns: calc(100% - 320px) 320px;
   min-height: 100vh;
 }
-
+.shop-container{
+  padding: 20px 20px 20px 5px;
+}
 .product-wrapper {
   display: grid;
-  padding: 20px 20px 20px 5px;
+
 
   &.main-product-grid {
     // grid-template-columns: repeat(6, calc(100% / 6));

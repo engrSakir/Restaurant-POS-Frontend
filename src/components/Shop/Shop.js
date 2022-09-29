@@ -59,11 +59,19 @@ const Shop = () => {
     const removeCartItem = (removedID) => {
         setCart(cart.filter((x) => x.unique_key !== removedID))
     }
+
+
     const filterProductByCat = (catID) => {
-
-        setProducts(allProduct.filter((x) => x.category_id === catID))
-
-        // console.log(products);
+        catID ? setProducts(allProduct.filter((x) => x.category_id === catID)) : setProducts(allProduct)
+        // setProducts(allProduct.filter((x) => x.category_id === catID))
+    }
+    const filterProductByName = (insertedProductName) => {
+        // catID ? setProducts(allProduct.filter((x) => x.category_id === catID)) : setProducts(allProduct)
+        // setProducts(allProduct.filter((x) => x.category_id === catID))
+        // console.log(event.target.value)
+        console.log(insertedProductName);
+        // insertedProductName.length>3? setProducts(allProduct.filter(product => product) : setProducts(allProduct)
+        insertedProductName.length > 2 ? setProducts(allProduct.filter((x) => x.name.toLowerCase().includes(insertedProductName.toLowerCase()))) : setProducts(allProduct)
     }
     return (
         <div>
@@ -72,10 +80,10 @@ const Shop = () => {
                     <Col>
 
                         <div className="shopping-page-wrapper">
-                            <div>
+                            <div className="shop-container">
                                 <div>
-                                    {categories?.map((category) => <Filter category={category} key={category.id}
-                                                                           filterProductByCat={filterProductByCat}></Filter>)}
+                                    <Filter categories={categories} filterProductByCat={filterProductByCat} filterProductByName={filterProductByName}></Filter>
+
                                 </div>
                                 <div className="product-wrapper main-product-grid">
                                     {products?.map((product) => <ProductItem key={product.unique_key} product={product}
