@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b25e537-6f7f-46a3-9544-beb1916116f2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/Filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/Shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Shop/Shop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Shop/Shop.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <workItem from="1664279626575" duration="3830000" />
       <workItem from="1664334618179" duration="2918000" />
       <workItem from="1664345308831" duration="1320000" />
-      <workItem from="1664463670209" duration="3577000" />
+      <workItem from="1664463670209" duration="4161000" />
     </task>
     <servers />
   </component>
