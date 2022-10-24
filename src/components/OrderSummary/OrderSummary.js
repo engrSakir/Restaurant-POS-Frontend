@@ -119,7 +119,10 @@ const OrderSummary = ({cart}) => {
 
     return (
         <div>
-            <BillPrint ref={componentRef} printContent={printableContent}></BillPrint>
+            <div className="d-none">
+                <BillPrint ref={componentRef} printContent={printableContent}></BillPrint>
+            </div>
+
             <h5 onClick={() => setShowOrderDetails(!showOrderDetails)}
                 className="text-center mb-3"> {itemsPrice} - {discountAmount} = {itemsPrice - discountAmount} <span
                 className="text-danger">*</span></h5>
