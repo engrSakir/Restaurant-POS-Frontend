@@ -1,9 +1,15 @@
-.payment-methods{
+.order-form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin-bottom: 20px;
-    .payment-input-wrapper{
+    &>div{
+        min-height: 35px;
+    }
+    .full-width-field{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .checkbox-input-wrapper{
         display: flex;
         align-items: center;
         position: relative;
@@ -26,3 +32,4 @@
         }
     }
 }
+
